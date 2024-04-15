@@ -1,0 +1,130 @@
+
+.container {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.title {
+  width: 60vw;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 900;
+  color: white;
+}
+
+.title span {
+  color: #F6B17A;
+}
+
+.title span:last-child {
+  background-color: #F6B17A;
+  padding: 0px 30px 5px;
+  color: #292B39;
+}
+
+.btn-regist-login {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-regist-login button {
+  font-size: 20px;
+  /* padding: 15px 50px; */
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.btn-regist {
+  font-weight: 900;
+  text-decoration: none;
+  position: relative;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  color: #fff;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #F6B17A, #FF8E8F, #FF8E8F, #F6B17A);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.btn-regist:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.btn-regist:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #F6B17A, #FF8E8F, #FF8E8F, #F6B17A);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+
+.btn-regist:hover::before {
+  filter: blur(20px);
+}
+
+.btn-regist:active {
+  background: linear-gradient(32deg, #F6B17A, #FF8E8F, #FF8E8F, #F6B17A);
+}
+
+
+.btn-login {
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  font-weight: 700;
+}
+
+.blur-top {
+  width: 250px;
+  height: 250px;
+  background-color: #F6B17A;
+  position: absolute;
+  border-radius: 50%;
+  right: 30px;
+  top: 30px;
+  filter: blur(200px);
+-webkit-filter: blur(200px);
+}
+
+.blur-bot {
+  width: 250px;
+  height: 250px;
+  background-color: #F6B17A;
+  position: absolute;
+  border-radius: 50%;
+  left: 30px;
+  bottom: 30px;
+  filter: blur(200px);
+-webkit-filter: blur(200px);
+}
+

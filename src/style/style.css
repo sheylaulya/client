@@ -1,0 +1,203 @@
+* {
+    background-color: #292B39;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    color: white;
+    background-color: transparent;
+    text-align: start;
+}
+
+div {
+    background-color: transparent;
+}
+
+
+.logo {
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    top: 20px;
+}
+
+.containers {
+    padding: 30px 50px;
+    flex: 1;
+}
+
+header {
+    width: 92vw;
+}
+
+.search-bar input {
+    width: 50vw;
+}
+
+.shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 24px 40px;
+}
+
+.header-break {
+    height: 10vh;
+}
+
+.blur-container {
+    background-color: #3e42586f;
+    border-radius: 1rem;
+}
+
+.activity {
+    padding: 20px 30px;
+}
+
+.overflow-scroll {
+    overflow-y: scroll;
+    height: 25vh;
+}
+
+.overflow-scroll::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 12px;
+
+}
+
+.overflow-scroll::-webkit-scrollbar-track {
+    background: #f1f1f178;
+}
+
+.overflow-scroll::-webkit-scrollbar-thumb {
+    background: #292B39;
+}
+
+.nav-bar {
+    width: 50vw;
+    height: 5vh;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icon-nav {
+    font-size: 25px;
+}
+
+.nav-comp {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    background-color: transparent;
+}
+
+.link-active .icon-nav,
+.link-active p {
+
+    color: #f6b27a !important;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.wrapper-profile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.dropdown p {
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    color: black;
+}
+
+.dropdown p:hover {
+    background-color: #292B39;
+    color: white;
+    border: 0.5px white solid;
+    border-radius: 5px;
+}
+
+.dropdown .delete{
+    width: 120px;
+}
+
+.dropdown .delete:hover{
+    border: 0.5px red solid;
+}
+
+.profile-head {
+    padding: 30px 80px;
+}
+
+li {
+    list-style: none;
+}
+
+.post-content {
+    padding: 30px 70px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55vh;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.add-pics input{
+    /* opacity: 0; */
+}
+
+.right-content input{
+    width: 90%;
+    /* height: 30px; */
+}
+
+label{
+    color: white;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.object-fit{
+    object-fit: cover;
+}
+
+.avatar{
+    border: 1px solid white;
+    padding: 5px;
+}

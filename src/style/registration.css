@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.blur-top {
+    width: 250px;
+    height: 250px;
+    background-color: #F6B17A;
+    position: absolute;
+    border-radius: 50%;
+    right: 30px;
+    top: 30px;
+    filter: blur(200px);
+  -webkit-filter: blur(200px);
+  }
+  
+  .blur-bot {
+    width: 250px;
+    height: 250px;
+    background-color: #F6B17A;
+    position: absolute;
+    border-radius: 50%;
+    left: 30px;
+    bottom: 30px;
+    filter: blur(200px);
+  -webkit-filter: blur(200px);
+  }
+
+  h2{
+    color: white;
+  }
+
+  h2 span{
+    color: #F6B17A;
+  }
+
+input{
+  display: block;
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 5px 20px;
+}
+
+button{
+  display: block;
+  border-radius: 20px;
+  border: none;
+  width: 440px;
+  height: 40px;
+  padding: 5px 30px;
+  background-color: #F6B17A;
+  font-weight: 700;
+}
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  p span{
+    color: #F6B17A;
+  }
+
+ 
+
+  .form{
+    line-height: 50px;
+  }
